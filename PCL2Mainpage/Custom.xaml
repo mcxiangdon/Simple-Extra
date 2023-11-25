@@ -6,7 +6,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" Foreground="#3081CC" FontWeight="Bold" FontSize="13"  HorizontalAlignment="Center" 
                    Text="感谢下载 Simple Extra 整合包"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721" FontWeight="Bold" HorizontalAlignment="Center"
-                   Text="Release v1.1.0正式版现已推出！！"/>
+                   Text="测试"/>
         <local:MyHint Margin="0,0,0,4" IsWarn="False"
                    Text="Release v1.1.0已推出！此版本是融合BETAV1.0.6与BETAV1.0.5的所有内容，基于Minecraft 1.20.1再次推出的全新正式版！包含FreshAnimations扩展更新，增加若干优化模组，重修汉化，完全支持英语和简体中文等等内容，建议更新以体验最新内容:D"/>
         <local:MyButton ColorType="Highlight" Padding="20,7,20,7" Text="MCBBS帖子" ToolTip="点击即可访问最新信息，以及下载最新版本"  HorizontalAlignment="Center" EventType="打开网页" EventData="https://www.mcbbs.net/thread-1465750-1-1.html"/>
