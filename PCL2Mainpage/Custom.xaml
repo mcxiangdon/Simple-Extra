@@ -1,60 +1,73 @@
-﻿<!-- 你发现了 Simple Extra 整合包用于PCL2启动器的自定义主页面文件 -->
+<!-- 你发现了 Simple Extra 整合包用于PCL2启动器的自定义主页面文件 -->
 <local:MyCard Title="关于 Simple Extra" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
-    <StackPanel Margin="25,40,23,5">
-        <Image HorizontalAlignment="Center"
-                   Source="https://pic.imgdb.cn/item/64e2e7b4661c6c8e54e95bc8.png"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" Foreground="#3081CC" FontWeight="Bold" FontSize="13"  HorizontalAlignment="Center" 
-                   Text="感谢下载 Simple Extra 整合包"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721" FontWeight="Bold" HorizontalAlignment="Center"
-                   Text="测试"/>
-        <local:MyHint Margin="0,0,0,4" IsWarn="False"
-                   Text="Release v1.1.0已推出！此版本是融合BETAV1.0.6与BETAV1.0.5的所有内容，基于Minecraft 1.20.1再次推出的全新正式版！包含FreshAnimations扩展更新，增加若干优化模组，重修汉化，完全支持英语和简体中文等等内容，建议更新以体验最新内容:D"/>
-        <local:MyButton ColorType="Highlight" Padding="20,7,20,7" Text="MCBBS帖子" ToolTip="点击即可访问最新信息，以及下载最新版本"  HorizontalAlignment="Center" EventType="打开网页" EventData="https://www.mcbbs.net/thread-1465750-1-1.html"/>
-    </StackPanel>
+  <StackPanel Margin="25,40,23,5">
+    <Image HorizontalAlignment="Center"
+      Source="https://pic.imgdb.cn/item/64e2e7b4661c6c8e54e95bc8.png"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" Foreground="#3081CC" FontWeight="Bold" FontSize="13"  HorizontalAlignment="Center" 
+      Text="感谢下载 Simple Extra 整合包"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721" FontWeight="Bold" HorizontalAlignment="Center"
+      Text="*哦还活着*"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold" HorizontalAlignment="Center"
+      Text="目前正在重做此整合包，这可能需要很长一段时间，真的很长..."/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" HorizontalAlignment="Center"
+      Text="我正考虑利用原版的“进度”系统来写一些成就，并且还会增加一些稍微魔改的内容，为了更多元化的体验以原版玩法为中心进行拓展"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0" HorizontalAlignment="Center"
+      Text="不管怎样，我会确保整合包应有的优化力度不变"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,3" HorizontalAlignment="Center"
+      Text="*完毕*"/>
+    <local:MyButton ColorType="Highlight" Padding="20,7,20,7" Text="MCBBS帖子" ToolTip="点击即可访问最新信息，以及下载最新版本"  HorizontalAlignment="Center" EventType="打开网页" EventData="https://www.mcbbs.net/thread-1465750-1-1.html"/>
+  </StackPanel>
 </local:MyCard>
- 
+
 <local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Release v1.1.0"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="-与Beta v1.0.6-pre1版本取长补短的合并(删减模组?不存在的!) -添加了 异引定址Redirector [0P2R]抑验怠载0Pack2Reload ForceGL20 Fast-IP-Ping Lazy-language-loader 附魔等级语言补丁EnchLevel-LangPatch ServerCore Recipe-Book-Delight Better-End-Sky [EPX]终末之诗扩展补丁EndPoemExtension -翻译完全更新 -FreshAnimations 扩展更新 -各种数不清的微调"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.6-pre1"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="-添加了 YOSBR [笔记]Notes WI Zoom 下界传送门修正 美西螈桶修复 -移除了 geophilic 铁氧体磁芯(因其容易导致显存溢出) Logical Zoom -TIPS模组更换为Loading Screen Tips，因为前者不支持MC1.20.2 -因升级而删除的模组 TieFix memoryleakfix JustEnoughFarmersRecipes CreativeCore CasualnessDelight 物品物理掉落 农夫乐事 农夫暇事 生物群系改造 末地乐事 搬运"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.5"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="-添加了 cristellib Towns-and-Towers ImmersiveThunder 区块淡入动画 Better Statistics Screen [飘扬披风]waveycapes main-menu-credits modelfix Structory Structory: Towers Video Tape entity_texture_features -更新了若干模组，和fresh animations纹理包，将默认光影改为Makeup-UltraFast -包括农夫乐事在内的各种汉化修正，补全 -移除了 自定义局域网联机，改用更高级联机设置"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.4"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="添加了随意乐事 这是我的船! MES fabrishot 星光 exordium bedrodium，更新了C^2M 引擎 FabricAPI Carryon ItemsDisplayed ImmediatelyFast Reese的钠视频界面，删除了gpumemoryleakfix，微调了模组设置、PCL2以及默认光影设置、sodium全家桶设置"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.3-fix2"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="修正了农夫乐事等模组的汉化，调整了一键背包整理Next的设置以让它的功能更加的纯粹"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.3-fix1"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="添加了Just Enough Farmer's Recipes"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.3"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="添加了细节盔甲 农夫乐事 农夫暇事 末地乐事 苹果皮 望远镜改进 标识符翻译 gpumemleakfix 可点击的进度 生物群系音乐 生物群系改造 Immersive Structures fabric-language-kotlin 不昂贵 ItemsDisplayed BetterThirdPerson cupboard libIPN 一键背包整理Next,更新了JEI物品管理器 Bookshelf"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.2"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="添加了落叶 更好地破坏半砖 balm memoryleakfix 更好的骑乘HUD chatanimation 天空村庄 bettervillage libraryferret geophilic 失落废墟 铁氧体磁芯
-更新了钠全家桶至最新 修正了汉化 删除了自动汉化更新"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.1"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="添加了无限与经验修补 预生成区块 3D皮肤层 提示 Bookshelf，删除了高清截图Fabric，更新ImmediatelyFast至1.1.28"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
-                   Text="Beta v1.0.0"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="第一个版本 第二次改动:对客户端进行一些小改动，无版本号推进必要"/>
-    </StackPanel>
+  <StackPanel Margin="25,40,23,15">
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
+      Text="Release v1.1.0"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-与Beta v1.0.6-pre1版本取长补短的合并(删减模组?不存在的!)"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-添加了 异引定址Redirector [0P2R]抑验怠载0Pack2Reload ForceGL20 Fast-IP-Ping Lazy-language-loader 附魔等级语言补丁EnchLevel-LangPatch ServerCore Recipe-Book-Delight Better-End-Sky [EPX]终末之诗扩展补丁EndPoemExtension"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+      Text="-翻译完全更新 -FreshAnimations 扩展更新 -各种数不清的微调"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
+      Text="Beta v1.0.6-pre1"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-添加了 YOSBR [笔记]Notes WI Zoom 下界传送门修正 美西螈桶修复"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-移除了 geophilic 铁氧体磁芯(因其容易导致显存溢出) Logical Zoom -TIPS模组更换为Loading Screen Tips，因为前者不支持MC1.20.2"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-因升级而删除的模组：TieFix memoryleakfix JustEnoughFarmersRecipes CreativeCore CasualnessDelight 物品物理掉落 农夫乐事 农夫暇事 生物群系改造 末地乐事 搬运"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,4,0,4" FontWeight="Bold"
+      Text="Beta v1.0.5"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-添加了 cristellib Towns-and-Towers ImmersiveThunder 区块淡入动画 Better Statistics Screen [飘扬披风]waveycapes main-menu-credits modelfix Structory Structory: Towers Video Tape entity_texture_features -更新了若干模组，和fresh animations纹理包，将默认光影改为Makeup-UltraFast -包括农夫乐事在内的各种汉化修正，补全 -移除了 自定义局域网联机，改用更高级联机设置"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,4,0,4" FontWeight="Bold"
+      Text="Beta v1.0.4"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="添加了随意乐事 这是我的船! MES fabrishot 星光 exordium bedrodium，更新了C^2M 引擎 FabricAPI Carryon ItemsDisplayed ImmediatelyFast Reese的钠视频界面，删除了gpumemoryleakfix，微调了模组设置、PCL2以及默认光影设置、sodium全家桶设置"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,4,0,4" FontWeight="Bold"
+      Text="Beta v1.0.3-fix2"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="修正了农夫乐事等模组的汉化，调整了一键背包整理Next的设置以让它的功能更加的纯粹"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,4,0,4" FontWeight="Bold"
+      Text="Beta v1.0.3-fix1"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="添加了Just Enough Farmer's Recipes"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,4,0,4" FontWeight="Bold"
+      Text="Beta v1.0.3"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="添加了细节盔甲 农夫乐事 农夫暇事 末地乐事 苹果皮 望远镜改进 标识符翻译 gpumemleakfix 可点击的进度 生物群系音乐 生物群系改造 Immersive Structures fabric-language-kotlin 不昂贵 ItemsDisplayed BetterThirdPerson cupboard libIPN 一键背包整理Next,更新了JEI物品管理器 Bookshelf"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,4,0,4" FontWeight="Bold"
+      Text="Beta v1.0.2"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="添加了落叶 更好地破坏半砖 balm memoryleakfix 更好的骑乘HUD chatanimation 天空村庄 bettervillage libraryferret geophilic 失落废墟 铁氧体磁芯 更新了钠全家桶至最新 修正了汉化 删除了自动汉化更新"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,4,0,4" FontWeight="Bold"
+      Text="Beta v1.0.1"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="添加了无限与经验修补 预生成区块 3D皮肤层 提示 Bookshelf，删除了高清截图Fabric，更新ImmediatelyFast至1.1.28"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,4,0,4" FontWeight="Bold"
+      Text="Beta v1.0.0"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="第一个版本"/>
+  </StackPanel>
 </local:MyCard>
