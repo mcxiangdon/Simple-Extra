@@ -6,21 +6,31 @@
     <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" Foreground="#3081CC" FontWeight="Bold" FontSize="13"  HorizontalAlignment="Center" 
       Text="感谢下载 Simple Extra 整合包"/>
     <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#8C7721" FontWeight="Bold" HorizontalAlignment="Center"
-      Text="*哦还活着*"/>
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold" HorizontalAlignment="Center"
-      Text="目前正在重做此整合包，这可能需要很长一段时间，真的很长..."/>
+      Text="Release v1.1.1 已发布！"/>
     <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" HorizontalAlignment="Center"
-      Text="我正考虑利用原版的“进度”系统来写一些成就，并且还会增加一些稍微魔改的内容，为了更多元化的体验以原版玩法为中心进行拓展"/>
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0" HorizontalAlignment="Center"
-      Text="不管怎样，我会确保整合包应有的优化力度不变"/>
-    <TextBlock TextWrapping="Wrap" Margin="0,0,0,3" HorizontalAlignment="Center"
-      Text="*完毕*"/>
-    <local:MyButton ColorType="Highlight" Padding="20,7,20,7" Text="MCBBS帖子" ToolTip="点击即可访问最新信息，以及下载最新版本"  HorizontalAlignment="Center" EventType="打开网页" EventData="https://www.mcbbs.net/thread-1465750-1-1.html"/>
+      Text="此次更新是 Release v1.1.0 的一次维护更新。"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" HorizontalAlignment="Center"
+      Text="访问 MCBBS 以下载新版本。"/>
+    <local:MyButton ColorType="Highlight" Padding="20,7,20,7" Text="MCBBS" ToolTip="点击即可访问最新信息，以及下载最新版本"  HorizontalAlignment="Center" EventType="打开网页" EventData="https://www.mcbbs.net/thread-1465750-1-1.html"/>
   </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
   <StackPanel Margin="25,40,23,15">
+  <!-- Release v1.1.1 -->
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
+      Text="Release v1.1.1"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="“维护更新”"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-更新了所有模组以及fabric"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-更新本地化加载方式"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-删除vmp memoryleakfix，因为会导致游戏崩溃且无解"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
+      Text="-添加Better Fps - Render Distance以提高帧数，GeoFont Legacy v1.2 GUI Scale 4资源包以改善字体呈现效果"/>
+  <!-- Release v1.1.0 -->
     <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
       Text="Release v1.1.0"/>
     <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
@@ -29,6 +39,7 @@
       Text="-添加了 异引定址Redirector [0P2R]抑验怠载0Pack2Reload ForceGL20 Fast-IP-Ping Lazy-language-loader 附魔等级语言补丁EnchLevel-LangPatch ServerCore Recipe-Book-Delight Better-End-Sky [EPX]终末之诗扩展补丁EndPoemExtension"/>
     <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
       Text="-翻译完全更新 -FreshAnimations 扩展更新 -各种数不清的微调"/>
+  <!-- Beta v1.0.6-pre1 -->
     <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
       Text="Beta v1.0.6-pre1"/>
     <TextBlock TextWrapping="Wrap" Margin="0,0,0,0"
